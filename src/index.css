@@ -74,10 +74,11 @@ input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-inline: auto;
 }
 
 .formDiv {
-  width: 60%;
+  width: max-content;
   border: 1px solid white;
   display: flex;
   flex-direction: column;
@@ -90,7 +91,6 @@ input {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 90%;
   margin-top: 20px;
 }
 
@@ -101,7 +101,7 @@ input {
   flex-direction: column;
   border: 1px solid white;
   padding: 5px;
-  width: 40%;
+  width: 100px;
   margin: 15px 10px;
   background-color: rgb(155, 155, 155);
   color: black;
