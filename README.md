@@ -1,12 +1,25 @@
-# React + Vite
+# BookShelf Lab Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This project is a virtual bookshelf app built using React. Users can add books by entering a title and author, and the list updates instantly without requiring a page reload. 
 
-Currently, two official plugins are available:
+## Key Features
+- **Add books**: Users can enter a book title and author.
+- **Real-time updates**: The bookshelf updates immediately when a new book is added.
+- **React State**: The app uses React’s `useState` hook to manage the list of books and form inputs.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Setup Instructions
+1. Clone the project.
+2. Run the following command to set up the project with Vite:
 
-## Expanding the ESLint configuration
+   ```bash
+   npm install
+   ```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. To start the app locally, use:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and go to `http://localhost:5173 or check terminal`.
