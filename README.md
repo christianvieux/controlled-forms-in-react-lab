@@ -22,4 +22,4 @@ This project is a virtual bookshelf app built using React. Users can add books b
    npm run dev
    ```
 
-4. Open your browser and go to `http://localhost:5173 or check terminal`.
+4. Open your browser and go to `http://localhost:5173` or check terminal if the url doesn't work.
